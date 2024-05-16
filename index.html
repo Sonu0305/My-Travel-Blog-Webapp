@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Travel Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Travel.html">Travel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Eat.html">Eat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Relax.html">Relax</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Videos.html">Videos</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                    id="searchInput">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="button" onclick="search()">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="background-image"></div>
+
+    <div class="container mt-5">
+        <h1>Welcome to our Travel Blog!</h1>
+        <p>This is a place to discover new destinations, food experiences, and relaxation tips.<br>Relax and chillax and
+            search about whatever you want to from the links provided below or you can even use the search box provided alongside a friendly navbar.</p>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <a href="About.html">
+                    <div class="box" style="background-image: url('About.jpg');">
+                        <div class="box-content">
+                            <h3>About</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <a href="Travel.html">
+                    <div class="box" style="background-image: url('Travel.jpg');">
+                        <div class="box-content">
+                            <h3>Travel</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <a href="Eat.html">
+                    <div class="box" style="background-image: url('Food.jpg');">
+                        <div class="box-content">
+                            <h3>Eat</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <a href="Relax.html">
+                    <div class="box" style="background-image: url('Relax.jpg');">
+                        <div class="box-content">
+                            <h3>Relax</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <a href="Videos.html">
+                    <div class="box" style="background-image: url('Videos.jpg');">
+                        <div class="box-content">
+                            <h3>Videos</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <a href="Contact.html">
+                    <div class="box" style="background-image: url('Contact.jpg');">
+                        <div class="box-content">
+                            <h3>Contact</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
