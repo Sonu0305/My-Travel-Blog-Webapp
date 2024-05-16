@@ -1,0 +1,71 @@
+/* Navigation Bar */
+.navbar {
+    margin-bottom: 0;
+    padding-top: 0;
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Search Bar */
+.form-control {
+    border-color: #007bff;
+}
+
+.btn-outline-success {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+body {
+    background-image: url('bgabout.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1,
+p {
+    color: #000000;
+}
+
+.table-responsive {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
